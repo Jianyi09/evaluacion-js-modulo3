@@ -1,0 +1,58 @@
+body {
+  background-image: url("https://cdnb.artstation.com/p/assets/images/images/025/079/567/original/ngan-pham-lil-ants-anim-test-v06.gif?1584542703");
+  background-size: cover;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  padding: 120px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.encabezado h1{
+  font-size: 50px;
+  margin: 0;
+  margin-top: 5px;
+  color: white;
+  text-shadow:
+    -1px -1px 0 green,
+     1px -1px 0 green,
+    -1px  1px 0 green,
+     1px  1px 0 green;
+}
+.encabezado p {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  color: #307632;
+
+}
+
+input, button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#saludo {
+  font-size: 20px;
+  color: #333;
+}
+
+#caracteres {
+  font-style: italic;
+  color: #333;
+}
+
